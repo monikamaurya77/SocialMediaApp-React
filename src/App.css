@@ -1,0 +1,198 @@
+body,h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+.nav{
+  background-color: rgb(25, 118, 210);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.darkBtn{
+  background-color: green !important;
+}
+.link{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.intro{
+  border: 1px solid rgba(128, 128, 128, 0.178);
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px rgba(128, 128, 128, 0.194);
+}
+.hi{
+  color: gray;
+}
+.welcome{
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.p_img img{
+  border-radius: 50%;
+}
+.profile{
+  display: flex;
+  align-items: center;
+}
+.p_name{
+  margin-left: 25px;
+}
+.p_names{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.p_names:hover{
+  color: black;
+}
+.p_time{
+  
+  color: grey;
+}
+.tags{
+  display: flex;
+  justify-content: flex-start;
+ 
+}
+.tag{
+  padding: 2px 15px;
+  border: 1px solid rgba(128, 128, 128, 0.178);
+  border-radius: 15px;
+  margin-right: 15px;
+  background-color: rgb(107, 142, 216);
+}
+.tag a{
+  text-decoration: none;
+  color: black;
+}
+.like{
+  display: flex;
+  justify-content: space-between;
+}
+.fa-comment{
+  font-size: 22px;
+}
+.fa-heart{
+  font-size: 22px;
+}
+.next{
+  cursor: pointer;
+  color: blue;
+  text-align: center;
+  border: none;
+}
+.next-div{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.footer{
+  height: 60px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.082);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-section{
+  font-size: 25px;
+}
+.likink{
+  color: red;
+}
+.Profile-page{
+  display: flex;
+  justify-content: flex-start;
+}
+.profile_image{
+  margin-right: 5rem;
+}
+.profile_image img{
+  border-radius: 50%;
+}
+.loading{
+  text-align: center;
+}
+.tag:hover{
+  background-color: grey;
+}
+.desc{
+  font-size: 23px;
+}
+.author{
+  font-size: 14px;
+  color: grey;
+}
+
+.dark {
+  background: rgba(0, 0, 0, 0.906);
+  color: white;
+}
+.dark a{
+  color: white;
+}
+.dark a:hover{
+  color: white;
+}
+.dark .nav{
+  background-color: rgba(0, 0, 0, 0.605);
+}
+
+@media screen and (max-device-width: 480px){
+  img{
+    width: 18px;
+    height: 18px;
+  }
+  .link{
+    font-size: 12px;
+  }
+  .welcome{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .tag{
+    padding: 1px 2px;
+    border: 1px solid rgba(128, 128, 128, 0.178);
+    border-radius: 8px;
+    margin-right: 0px;
+    font-size: 8px;
+    height: 24px;
+  }
+  .footer-section{
+    font-size: 13px;
+  }
+  .p_time{
+    font-size: 7px;
+  }
+  p{
+    font-size: 12px;
+  }
+  .fa-comment{
+    font-size: 14px;
+  }
+  .fa-heart{
+    font-size: 14px;
+  }
+  .like{
+    font-size: 12px;
+  }
+.form-switch .form-check-input {
+  width: 30px;
+  height: 15px;
+  margin-left: -4rem;
+}
+label{
+  font-size: 12px;
+  margin-left: -1.8rem;
+}
+}
+ 
